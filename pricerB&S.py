@@ -151,7 +151,7 @@ with tabs[2]:
 with tabs[3]:
     st.subheader("Export results")
     results = {
-        "Prix": [black_scholes_price(S, K, T, r, sigma, option_type)],
+        "Price": [black_scholes_price(S, K, T, r, sigma, option_type)],
         "Delta": [delta(S, K, T, r, sigma, option_type)],
         "Gamma": [gamma(S, K, T, r, sigma)],
         "Vega": [vega(S, K, T, r, sigma)],
